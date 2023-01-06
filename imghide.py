@@ -307,9 +307,9 @@ def main():
 
 		header = decrypted.decode()[:len(headerText)]
 
-		if header!=headerText:
-			print("[red]Wrong password![/red]")
-			sys.exit(0)
+		#if header!=headerText:
+		#	print("[red]Wrong password![/red]")
+		#	sys.exit(0)
 
 		decrypted = decrypted[len(headerText):]
 
